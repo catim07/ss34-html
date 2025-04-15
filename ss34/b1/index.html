@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eggplant</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: gray; display: flex; justify-content: center;">
+    <div
+        style="display: flex; align-items: center; flex-direction: column; background-color: white; width: 50%; border-radius: 20px;">
+        <h1>Regiter</h1>
+        <form onsubmit="check(event)" style="width: 100%; margin: 30px; font-size: 50px; display: flex; flex-direction: column;">
+            <label for="email">Email:</label>
+            <input style="border-radius: 5px; font-size: 50px;" type="email" name="email" id="email"
+                placeholder="Enter your email address">
+            <label for="password">Password:</label>
+            <input style="border-radius: 5px;font-size: 50px;" type="password" name="password" id="password"
+                placeholder="Enter your password">
+            <label for="ConfirmPassword">Confirm Password:</label>
+            <input style="border-radius: 5px;font-size: 50px;" type="password" name="confirmPassword"
+                id="confirmPassword" placeholder="Enter your Confirm Password">
+            <button type="submit" class="btn btn-primary" style="font-size: 50px; margin-top: 20px;">Primary</button>
+
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
